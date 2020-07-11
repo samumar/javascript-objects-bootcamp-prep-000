@@ -10,5 +10,6 @@ updatePlaylist(playlist, 'Slowdive', "Alison");
 updatePlaylist(playlist, 'My Bloody Valentine', "Sometimes");
 
 function removeFromPlaylist(playlist, artistName) {
-  
+  delete playlist.Slowdive;
+  return playlist;
 }
